@@ -1,0 +1,7 @@
+{
+  "algorithm": "PPO",
+  "total_timesteps": 1000000,
+  "episodes_completed": 1944,
+  "best_avg_reward": 229.78,
+  "final_avg_100": 117.26
+}

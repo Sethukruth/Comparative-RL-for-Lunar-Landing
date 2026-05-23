@@ -1,0 +1,11 @@
+{
+  "num_episodes": 100,
+  "average_reward": 221.77,
+  "median_reward": 268.84,
+  "max_reward": 314.08,
+  "min_reward": -184.55,
+  "std_reward": 107.51,
+  "success_rate": 86.0,
+  "crash_rate": 4.0,
+  "landing_accuracy": 95.35
+}

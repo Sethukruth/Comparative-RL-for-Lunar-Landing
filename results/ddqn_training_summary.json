@@ -1,0 +1,7 @@
+{
+  "algorithm": "DDQN",
+  "episodes": 1000,
+  "solved_episode": 586,
+  "best_avg_reward": 235.49,
+  "final_avg_100": 178.57
+}

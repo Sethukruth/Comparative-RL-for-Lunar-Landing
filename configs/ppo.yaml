@@ -1,0 +1,30 @@
+# ── PPO Configuration ────────────────────────────────────────────────────────
+# Autonomous Lunar Lander — Proximal Policy Optimization (Stable-Baselines3)
+
+env:
+  name: "LunarLander-v3"
+  seed: 42
+
+training:
+  total_timesteps: 1_000_000
+  learning_rate: 0.0003
+  gamma: 0.99
+  n_steps: 2048
+  batch_size: 64
+  n_epochs: 10
+  clip_range: 0.2
+  ent_coef: 0.0
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  gae_lambda: 0.95
+  policy: "MlpPolicy"
+
+checkpoint:
+  save_dir: "checkpoints"
+  save_every: 50000            # timesteps
+  best_model_path: "checkpoints/ppo_best"
+
+logging:
+  tensorboard_dir: "tensorboard_logs/ppo"
+  results_dir: "results"
+  verbose: 1
