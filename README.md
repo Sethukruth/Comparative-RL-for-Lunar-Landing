@@ -312,13 +312,7 @@ After training, each agent is evaluated over 100 episodes:
 
 ---
 
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - [Gymnasium](https://gymnasium.farama.org/) — RL environment suite
 - [Stable-Baselines3](https://stable-baselines3.readthedocs.io/) — PPO implementation
